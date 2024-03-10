@@ -1,0 +1,608 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+   
+
+		<div class="w-full overflow-hidden">
+			<div class="bg-[#34445C] sm:px-16 px-6 relative flex items-start justify-center min-[959px]:h-screen max-[958px]:h-fit  overflow-hidden">
+					<div class="xl:max-w-[1280px] w-full z-30">
+						
+						
+						
+						<!-- header	-->
+
+						<div class="w-full block flex flex-row justify-between w-auto bg-[#F3F3F3]/20 py-1.5 px-3">
+							<div class="*:text-xs *:text-white *:italic max-[435px]:hidden">
+								<span class="block">Дополнительная информация</span>
+							</div>
+							<div class="*:text-xs *:text-white *:italic flex justify-start items-center">
+								<span>Мы в соцсетях: </span>
+								<div class="*:text-xs *:text-white *:italic *:ml-1.5 flex justify-start">
+									<a href="#" ><img src="./src/images/youtube.svg" class="w-3.5"/></a>
+									<a href="#" ><img src="./src/images/facebook.svg" class="w-3.5"/></a>
+									<a href="#" ><img src="./src/images/instagram.svg" class="w-3.5"/></a>
+									<a href="#" ><img src="./src/images/vk.svg" class="w-3.5"/></a>
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<nav class="flex items-center justify-between flex-wrap bg-teal py-4 border-b border-white">
+							<div class="w-full flex justify-start flex-wrap">
+								<div class="grow-0 max-sm:w-4/12">
+									<a href="#" ><img src="./src/images/logo.svg"/></a>
+								</div>
+								
+								<ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50 w-full h-screen *:my-2">
+									<li class="md:hidden z-90 fixed top-4 right-6">
+                    <a href="javascript:void(0)" class="text-right text-white text-4xl" onclick="toggleMenu()">&times;</a>
+                	</li>
+									
+									<li>
+										<a href="#" class="block text-lg px-4 py-2 rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+											Сибирская сова
+										</a>
+									</li>
+									<li>
+										<a href="#" class="block text-lg px-4 py-2 rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+											Проекты
+										</a>
+									</li>
+									<li>
+										<a href="#" class="block text-lg px-4 py-2 rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+											Услуги
+										</a>
+									</li>
+									<li>
+										<a href="#" class="block text-lg px-4 py-2 rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+											Каталог
+										</a>
+									</li>
+								<li>
+										<a href="#" class="block text-lg px-4 py-2 rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+											Контакты
+										</a>
+									</li>
+									<li>
+										<a href="#" class="block text-lg px-4 py-2 border rounded-full text-white border-white hover:border-transparent hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">Личный кабинет</a>
+									
+									</li>
+
+									
+
+								</ul>
+								
+								<div class="grow max-sm:w-8/12 flex justify-end items-center">
+									<a href="#" class="max-sm:hidden max-[958px]:hidden block text-sm px-4 py-2 leading-none rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+										Сибирская сова
+									</a>
+									<a href="#" class="max-sm:hidden max-[803px]:hidden block text-sm px-4 py-2 leading-none rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+										Проекты
+									</a>
+									<a href="#" class="max-sm:hidden block text-sm px-4 py-2 leading-none rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+										Услуги
+									</a>
+									<a href="#" class="max-sm:hidden max-[731px]:hidden block text-sm px-4 py-2 leading-none rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+										Каталог
+									</a>
+									<a href="#" class="max-sm:hidden block text-sm px-4 py-2 leading-none rounded-full text-white hover:text-[#34445C] hover:bg-white lg:mt-0 mr-5">
+										Контакты
+									</a>
+									<a href="#" class="max-sm:hidden block text-sm px-4 py-2 leading-none border rounded-full text-white border-white hover:border-transparent hover:text-[#34445C] hover:bg-white lg:mt-0">Личный кабинет</a>
+									
+									<button class="sm:hidden px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white" onclick="toggleMenu()">
+										<svg class="h-3 w-3 bg-white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+									</button>
+	
+								</div>
+							</div>
+							
+							
+							
+						
+						</nav>
+						
+						<video playsinline autoplay muted loop poster="/videos/evanty.png"
+									class="min-[959px]:hidden max-[958px]:visible
+									block z-10 w-auto h-full my-4">
+								<source src="./src/videos/sibfilm01.webm" type="video/webm">
+						</video>
+						
+						<!-- /header	-->
+
+					</div>
+
+
+					<video playsinline autoplay muted loop poster="/videos/evanty.png"
+								 class="max-[958px]:hidden
+								 absolute top-0 z-10 w-auto min-w-full min-h-full max-w-none opacity-50">
+							<source src="./src/videos/sibfilm01.webm" type="video/webm">
+					</video>
+			</div>
+
+
+			<div class="sm:px-16 px-6 flex justify-center items-center">
+					<div class="xl:max-w-[1280px] w-full">
+							
+						
+						
+						<!-- контент	-->
+							<div class="flex flex-row w-full block w-auto bg-[#F3F3F3]/20 py-20">
+								
+								<div class="basis-2/3 mr-4">
+									
+									<a href="#" class="">
+										<div class="bg-[#7B8384] h-80 rounded-lg mb-4 relative block">
+											<div class="absolute bottom-7 left-7 *:text-white">
+												<div class="text-2xl font-bold underline max-sm:text-base">Проекты</div>
+												<div class="text-sm sm:visible invisible">Описание данного раздела в 3 словах</div>
+											</div>
+										</div>
+									</a>
+									
+									<a href="#" class="">
+										<div class="bg-[#f3f3f1] h-56 rounded-lg relative block">
+											<div class="absolute bottom-7 left-7 *:text-[#7B8384]">
+												<div class="text-2xl font-bold underline max-sm:text-base">Партнеры</div>
+												<div class="text-sm sm:visible invisible">Описание данного раздела в 3 словах</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								
+								<div class="basis-1/3">
+									
+									<a href="#" class="">
+										<div class="bg-[#F3F3F3] h-56 rounded-lg mb-4 relative block">
+											<div class="absolute bottom-7 left-7 *:text-[#7B8384]">
+												<div class="text-2xl font-bold underline max-sm:text-base">Услуги</div>
+												<div class="text-sm sm:visible invisible">Описание данного раздела в 3 словах</div>
+											</div>	
+										</div>
+									</a>
+
+									<a href="#" class=""></a>
+										<div class="bg-[#7B8384] h-80 rounded-lg relative block">
+											<div class="absolute bottom-7 left-7 *:text-white">
+												<div class="text-2xl font-bold underline max-sm:text-base">Награды</div>
+												<div class="text-sm sm:visible invisible">Описание данного раздела в 3 словах</div>
+											</div>
+										</div>
+									</a>
+
+								</div>
+
+							</div>
+					</div>
+			</div>
+
+			<div class="sm:px-16 px-6 flex justify-center items-center bg-[#F3F3F3]">
+				<div class="xl:max-w-[1280px] w-full my-10">
+
+					<div class="w-full block flex flex-row justify-between items-end py-1.5 *:text-[#34445C]">
+						<div class="text-3xl">Кинозал</div>
+						<div class="text-sm italic underline"><a href="">Смотреть всё</a></div>
+					</div>
+
+
+					<div class="flex flex-wrap -mx-4">
+						
+						
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
+							<a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-80 overflow-hidden rounded-lg">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/upload/information_system_1/4/item_4766/small_item_4766.jpg" alt="">
+								</div>
+								<div class="py-3 px-4 border-b *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-sm text-gray-600">
+									<div class="flex">
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-gray-400"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<span class="ml-2 text-xs text-[#34445C]">4/34</span>
+									</div>
+									<div class="flex">
+										<img src="./src/images/eye.svg" class="w-3.5"/>
+										<span class="ml-2 text-xs text-[#34445C]">2434</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
+							<a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-80 overflow-hidden rounded-lg">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/upload/information_system_1/1/item_12612/small_item_12612.jpg" alt="">
+								</div>
+								<div class="py-3 px-4 border-b *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-sm text-gray-600">
+									<div class="flex">
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-gray-400"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<span class="ml-2 text-xs text-[#34445C]">4/34</span>
+									</div>
+									<div class="flex">
+										<img src="./src/images/eye.svg" class="w-3.5"/>
+										<span class="ml-2 text-xs text-[#34445C]">2434</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
+							<a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-80 overflow-hidden rounded-lg">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/upload/information_system_1/2/item_21298/small_item_21298.webp" alt="">
+								</div>
+								<div class="py-3 px-4 border-b *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-sm text-gray-600">
+									<div class="flex">
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-gray-400"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<span class="ml-2 text-xs text-[#34445C]">4/34</span>
+									</div>
+									<div class="flex">
+										<img src="./src/images/eye.svg" class="w-3.5"/>
+										<span class="ml-2 text-xs text-[#34445C]">2434</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
+							<a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-80 overflow-hidden rounded-lg">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/upload/information_system_1/4/item_4763/small_item_4763.jpg" alt="">
+								</div>
+								<div class="py-3 px-4 border-b *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-sm text-gray-600">
+									<div class="flex">
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-gray-400"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<span class="ml-2 text-xs text-[#34445C]">4/34</span>
+									</div>
+									<div class="flex">
+										<img src="./src/images/eye.svg" class="w-3.5"/>
+										<span class="ml-2 text-xs text-[#34445C]">2434</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
+							<a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-80 overflow-hidden rounded-lg">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/upload/information_system_1/2/item_21303/small_item_21303.webp" alt="">
+								</div>
+								<div class="py-3 px-4 border-b *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-sm text-gray-600">
+									<div class="flex">
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-yellow-500"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-gray-400"><path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path></svg>
+										<span class="ml-2 text-xs text-[#34445C]">4/34</span>
+									</div>
+									<div class="flex">
+										<img src="./src/images/eye.svg" class="w-3.5"/>
+										<span class="ml-2 text-xs text-[#34445C]">2434</span>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+
+
+
+
+								
+									
+									
+									
+									
+			
+					</div>
+
+
+
+				</div>
+			</div>
+
+
+
+
+			<div class="sm:px-16 px-6 flex justify-center items-center">
+				<div class="xl:max-w-[1280px] w-full my-10">
+						
+					
+					
+					<div class="w-full block flex flex-row justify-between items-end py-1.5 *:text-[#34445C]">
+						<div class="text-3xl">Магазин | Прокат</div>
+						<div class="text-sm italic underline"><a href="">Смотреть всё</a></div>
+					</div>
+
+
+					<div class="flex flex-wrap -mx-4">
+						
+						
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+							<div href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-32 overflow-hidden rounded-lg m-2">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/_local/gorkyfilm/content/kinokampus.jpg" alt="">
+								</div>
+								<div class="pb-3 px-4 border-b text-center *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-gray-600">
+									<div class="w-1/2 mx-1">
+										<button href="#" class="w-full grow text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Цена: <span class="font-bold text-sm">500</span> р</button>
+									</div>
+									<div class="w-1/2 mx-1">
+										<a href="#" class="block w-full px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0 font-bold text-sm text-center">Демо</a>
+									</div>
+								</div>
+								<div class="pb-4 px-4 mx-1">
+									<button href="#" class="w-full text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Добавить в корзину</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+							<div href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-32 overflow-hidden rounded-lg m-2">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/_local/gorkyfilm/content/muzey.jpg" alt="">
+								</div>
+								<div class="pb-3 px-4 border-b text-center *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-gray-600">
+									<div class="w-1/2 mx-1">
+										<button href="#" class="w-full grow text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Цена: <span class="font-bold text-sm">500</span> р</button>
+									</div>
+									<div class="w-1/2 mx-1">
+										<a href="#" class="block w-full px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0 font-bold text-sm text-center">Демо</a>
+									</div>
+								</div>
+								<div class="pb-4 px-4 mx-1">
+									<button href="#" class="w-full text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Добавить в корзину</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+							<div href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-32 overflow-hidden rounded-lg m-2">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/_local/gorkyfilm/content/rent4.png" alt="">
+								</div>
+								<div class="pb-3 px-4 border-b text-center *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-gray-600">
+									<div class="w-1/2 mx-1">
+										<button href="#" class="w-full grow text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Цена: <span class="font-bold text-sm">500</span> р</button>
+									</div>
+									<div class="w-1/2 mx-1">
+										<a href="#" class="block w-full px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0 font-bold text-sm text-center">Демо</a>
+									</div>
+								</div>
+								<div class="pb-4 px-4 mx-1">
+									<button href="#" class="w-full text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Добавить в корзину</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+							<div href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+								<div class="relative h-32 overflow-hidden rounded-lg m-2">
+									<img class="absolute inset-0 h-full w-full object-cover" src="https://gorkyfilm.ru/_local/gorkyfilm/content/rent3.png" alt="">
+								</div>
+								<div class="pb-3 px-4 border-b text-center *:text-[#34445C]">
+									<h2 class="mb-2 text-sm font-bold">Название этого фильма</h2>
+									<p class="text-xs">Краткое описание фильма, анонс мероприятия или просто какой то текст</p>
+								</div>
+								<div class="p-4 flex flex-row justify-between items-center text-gray-600">
+									<div class="w-1/2 mx-1">
+										<button href="#" class="w-full grow text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Цена: <span class="font-bold text-sm">500</span> р</button>
+									</div>
+									<div class="w-1/2 mx-1">
+										<a href="#" class="block w-full px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0 font-bold text-sm text-center">Демо</a>
+									</div>
+								</div>
+								<div class="pb-4 px-4 mx-1">
+									<button href="#" class="w-full text-xs px-4 py-2 border rounded-full text-[#34445C] border-[#34445C] hover:border-transparent hover:text-white hover:bg-[#34445C] mt-4 lg:mt-0">Добавить в корзину</button>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+								
+									
+									
+									
+									
+			
+					</div>
+						
+
+
+
+				</div>
+		</div>
+
+
+
+
+
+			<div class="bg-[#7B8384] sm:px-16 px-6 flex justify-center items-start">
+					<div class="xl:max-w-[1280px] w-full">
+								
+						
+
+
+
+
+
+						<footer class="px-4">
+							<div class="flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0 *:text-white border-b">
+								
+								<div class="w-2/6">
+									<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
+										<div class="flex items-start justify-center w-28 h-28">
+											<img src="./src/images/logo.svg"/>
+										</div>
+										<div class="flex flex-col w-48 pt-3">
+											<h3 class="uppercase">Сибирская сова</h3>
+											<p class="space-y-1 text-xs italic">Производственный организм, творческих и технологичестких процессов</p>
+										</div>
+									</a>
+								</div>
+
+								<div class="grid grid-cols-4 text-sm gap-x-3 gap-y-8 w-4/6 ">
+									<div class="space-y-3">
+										<h3 class="uppercase">Навигация</h3>
+										<ul class="space-y-1">
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 1</a>
+											</li>
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 2</a>
+											</li>
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 3</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="space-y-3">
+										<h3 class="uppercase">Навигация</h3>
+										<ul class="space-y-1">
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 1</a>
+											</li>
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 2</a>
+											</li>
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 3</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="space-y-3">
+										<h3 class="uppercase">Навигация</h3>
+										<ul class="space-y-1">
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 1</a>
+											</li>
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 2</a>
+											</li>
+											<li>
+												<a rel="noopener noreferrer" href="#">Меню 3</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="space-y-3">
+										<div class="uppercase ">Мы в социальных сетях:</div>
+										<div class="flex justify-start space-x-2">
+											<a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center">
+												<img src="./src/images/youtube.svg" class="w-6"/>
+											</a>
+											<a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center">
+												<img src="./src/images/facebook.svg" class="w-6"/>
+											</a>
+											<a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center">
+												<img src="./src/images/instagram.svg" class="w-6"/>
+											</a>
+											<a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center">
+												<img src="./src/images/vk.svg" class="w-6"/>
+											</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="py-3 text-xs text-center text-white">© 2024 Сибирская сова. All rights reserved.</div>
+
+						</footer>
+
+
+
+
+
+
+					</div>
+			</div>
+
+	</div>
+
+		<script>
+			var menu = document.getElementById('menu');
+			function toggleMenu() {
+					menu.classList.toggle('hidden');
+			}
+	</script>
+  </body>
+
+
+</html>
