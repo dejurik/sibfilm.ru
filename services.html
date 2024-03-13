@@ -123,11 +123,11 @@
 						
 							
 						<!-- контент	-->
-							<div class="flex flex-row w-full block w-auto bg-[#F3F3F3]/20 py-20">
+							<div class="flex flex-row w-full block w-auto bg-[#F3F3F3]/20 py-20 max-sm:py-4">
 								
-
-								<div class="w-full grid grid-rows-2 grid-flow-col gap-4">
-									<div class="col-span-2">
+ 
+								<div class="w-full sm:grid sm:grid-rows-2 sm:grid-flow-col sm:gap-4 max-sm:flex max-sm:flex-col">
+									<div class="col-span-2 max-sm:my-4">
 										
 										<a href="/service_item.html" class="">
 											<div class="bg-[#34445d] h-60 rounded-lg relative block">
@@ -140,7 +140,7 @@
 
 									</div>
 									
-									<div class="">
+									<div class="max-sm:my-4">
 
 										<a href="/service_item.html" class="">
 											<div class="bg-[#34445d] h-60 rounded-lg relative block">
@@ -154,7 +154,7 @@
 
 									</div>
 
-									<div class="">
+									<div class="max-sm:my-4">
 
 										<a href="/service_item.html" class="">
 											<div class="bg-[#34445d] h-60 rounded-lg relative block">
@@ -169,10 +169,10 @@
 									</div>
 
 
-									<div class="row-span-2">
+									<div class="row-span-2 max-sm:my-4">
 										
 										<a href="/service_item.html" class="">
-											<div class="bg-[#34445d] h-full rounded-lg relative block">
+											<div class="bg-[#34445d] h-full max-sm:h-60 rounded-lg relative block">
 												<div class="absolute bottom-7 left-7 *:text-white">
 													<div class="text-2xl font-bold underline max-md:text-base">Дополнительно</div>
 													<div class="text-sm hidden lg:block">Кинопроизводство, Фильмы и трейлеры</div>
@@ -199,12 +199,12 @@
 									<form action="" method="post" class="">
 										
 										<div class="flex flex-wrap mb-6">
-											<div class="w-full md:w-1/2 mb-6 md:mb-0">
+											<div class="w-full md:w-1/2 mb-6 md:mb-0 md:pr-1">
 													<label class="block text-[#34445d] text-xs font-bold mb-2" for="name">Ваше имя</label>
 													<input class="appearance-none block w-full bg-white text-[#34445d] border border-red-500 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white" id="name" type="text" placeholder="Ваше имя">
 													<p class="text-red-500 text-xs italic">Пожалуйста, введите ваше имя</p>
 											</div>
-											<div class="w-full md:w-1/2 px-3">
+											<div class="w-full md:w-1/2 md:pl-1">
 													<label class="block text-[#34445d] text-xs font-bold mb-2" for="phone">Телефон</label>
 													<input class="appearance-none block w-full bg-white text-[#34445d] border border-[#34445D]/20 rounded py-3 px-4 focus:outline-none focus:bg-white focus:border-[#34445d]" id="phone" type="text" placeholder="Укажите телефон">
 											</div>
@@ -214,17 +214,14 @@
 												<label class="block text-[#34445d] text-xs font-bold mb-2" for="message">Сообщение</label>
 												<textarea rows="10" class="appearance-none block w-full bg-white text-[#34445d] border border-[#34445D]/20 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white focus:border-[#34445D]"></textarea>
 										</div>
-										<div class="flex justify-between w-full">
-												<div class="md:flex md:items-center ">
-														
-																<input id="privacy" class="mr-2 w-5 h-5" type="checkbox">
-																<label for="privacy" class="block text-[#34445d] text-xs">Я даю согласие на обработку моих персональных данных</label>
+										<div class="flex justify-between w-full flex-wrap">
+												<div class="flex items-center mb-2">
+														<input id="privacy" class="mr-2 w-5 h-5" type="checkbox">
+														<label for="privacy" class="block text-[#34445d] text-xs">Я даю согласие на обработку моих персональных данных</label>
 												</div>
-												<button class="block text-sm border rounded-full text-[#34445C] border-[#34445C] px-4 py-2 hover:border-transparent hover:text-white hover:bg-[#34445C]" type="submit">Отправить сообщение</button>
-												
-										
-									
-
+												<button class="block text-sm border rounded-full text-[#34445C] border-[#34445C] px-4 py-2 hover:border-transparent hover:text-white hover:bg-[#34445C]" type="submit">
+													Отправить сообщение
+												</button>
 
 										</div>
 
