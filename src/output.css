@@ -1061,8 +1061,9 @@ video {
   background-color: rgb(52 68 92 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#34445D\]\/70 {
-  background-color: rgb(52 68 93 / 0.7);
+.bg-\[\#34445D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 68 93 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#34445d\] {
@@ -1108,11 +1109,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#34445D\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 68 93 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'\.\.\/src\/images\/partners\.jpg\'\)\] {
   background-image: url('../src/images/partners.jpg');
 }
@@ -1135,6 +1131,22 @@ video {
 
 .bg-\[url\(\'\.\.\/src\/images\/service3\.jpg\'\)\] {
   background-image: url('../src/images/service3.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/service_additionally\.jpg\'\)\] {
+  background-image: url('../src/images/service_additionally.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/service_default\.jpg\'\)\] {
+  background-image: url('../src/images/service_default.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/service_full\.jpg\'\)\] {
+  background-image: url('../src/images/service_full.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/service_lite\.jpg\'\)\] {
+  background-image: url('../src/images/service_lite.jpg');
 }
 
 .bg-\[url\(\'\.\.\/src\/images\/services\.jpg\'\)\] {
